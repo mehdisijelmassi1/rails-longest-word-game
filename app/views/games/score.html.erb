@@ -1,0 +1,7 @@
+<% @words.each do |word| %>
+  <% if @letters.include?(word) %>
+  <%= 'Good' %>
+  <% else %>
+  <%= 'Not good' %>
+  <% end %>
+<% end %>
